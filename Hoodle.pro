@@ -8,42 +8,42 @@ CONFIG += c++17
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-INCLUDEPATH += $$PWD/headers/
+INCLUDEPATH += $$PWD/sources/
 
 SOURCES += \
-	sources/cores/hoodle.cpp \
 	sources/main.cpp \
 	sources/cores/block.cpp \
 	sources/cores/framework.cpp \
+	sources/cores/hoodle.cpp \
 	sources/cores/plank.cpp \
 	sources/cores/points.cpp \
 	sources/utils/resources.cpp \
 	sources/views/mainwindow.cpp \
-	sources/views/widgets/failurewidget.cpp \
-	sources/views/widgets/preparewidget.cpp \
-	sources/views/widgets/scenewidget.cpp \
-	sources/views/widgets/successwidget.cpp
+	sources/views/failurewidget.cpp \
+	sources/views/preparewidget.cpp \
+	sources/views/scenewidget.cpp \
+	sources/views/successwidget.cpp
 
 HEADERS += \
-	headers/cores/block.h \
-	headers/cores/framework.h \
-	headers/cores/hoodle.h \
-	headers/cores/plank.h \
-	headers/cores/points.h \
-	headers/utils/constants.h \
-	headers/utils/resources.h \
-	headers/views/mainwindow.h \
-	headers/views/widgets/failurewidget.h \
-	headers/views/widgets/preparewidget.h \
-	headers/views/widgets/scenewidget.h \
-	headers/views/widgets/successwidget.h
+	sources/cores/block.h \
+	sources/cores/framework.h \
+	sources/cores/hoodle.h \
+	sources/cores/plank.h \
+	sources/cores/points.h \
+	sources/utils/constants.h \
+	sources/utils/resources.h \
+	sources/views/mainwindow.h \
+	sources/views/failurewidget.h \
+	sources/views/preparewidget.h \
+	sources/views/scenewidget.h \
+	sources/views/successwidget.h
 
 FORMS += \
 	forms/mainwindow.ui \
-	forms/widgets/failurewidget.ui \
-	forms/widgets/preparewidget.ui \
-	forms/widgets/scenewidget.ui \
-	forms/widgets/successwidget.ui
+	forms/failurewidget.ui \
+	forms/preparewidget.ui \
+	forms/scenewidget.ui \
+	forms/successwidget.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

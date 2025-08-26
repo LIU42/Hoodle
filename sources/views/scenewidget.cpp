@@ -1,4 +1,4 @@
-#include "views/widgets/scenewidget.h"
+#include "views/scenewidget.h"
 
 #include "ui_scenewidget.h"
 

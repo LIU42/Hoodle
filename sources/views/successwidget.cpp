@@ -1,4 +1,4 @@
-#include "views/widgets/successwidget.h"
+#include "views/successwidget.h"
 
 #include "ui_successwidget.h"
 

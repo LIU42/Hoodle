@@ -66,25 +66,25 @@ background-color: #161616;</string>
   <customwidget>
    <class>SceneWidget</class>
    <extends>QWidget</extends>
-   <header>views/widgets/scenewidget.h</header>
+   <header>views/scenewidget.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>PrepareWidget</class>
    <extends>QWidget</extends>
-   <header>views/widgets/preparewidget.h</header>
+   <header>views/preparewidget.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>FailureWidget</class>
    <extends>QWidget</extends>
-   <header>views/widgets/failurewidget.h</header>
+   <header>views/failurewidget.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>SuccessWidget</class>
    <extends>QWidget</extends>
-   <header>views/widgets/successwidget.h</header>
+   <header>views/successwidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

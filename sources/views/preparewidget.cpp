@@ -1,4 +1,4 @@
-#include "views/widgets/preparewidget.h"
+#include "views/preparewidget.h"
 
 #include "ui_preparewidget.h"
 

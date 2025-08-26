@@ -1,4 +1,4 @@
-#include "views/widgets/failurewidget.h"
+#include "views/failurewidget.h"
 
 #include "ui_failurewidget.h"
 
